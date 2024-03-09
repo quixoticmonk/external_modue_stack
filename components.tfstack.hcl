@@ -5,6 +5,6 @@ component "s3" {
 
     }
     providers={
-        aws= provider.aws.this
+        awscc= provider.awscc.this
     }
 }
