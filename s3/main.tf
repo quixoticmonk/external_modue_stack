@@ -14,5 +14,5 @@ variable "bucket_name" {
 }
 
 output "bucket_name" {
-  value = awscc_s3_bucket.this.bucket
+  value = awscc_s3_bucket.this.bucket_name
 }
