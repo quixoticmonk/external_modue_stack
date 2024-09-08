@@ -1,5 +1,5 @@
 deployment "dev" {
-    variables ={
+    inputs ={
         bucket_name         ="manu-s3-bucket-2024"
         region              = "us-east-1"
         role_arn            = "arn:aws:iam::697621333100:role/stack_role"
