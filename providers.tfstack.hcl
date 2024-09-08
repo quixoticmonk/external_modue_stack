@@ -12,7 +12,7 @@ provider "awscc" "this" {
 
    assume_role_with_web_identity= {
       role_arn                = var.role_arn
-      web_identity_token_file = var.identity_token_file
+      web_identity_token = var.identity_token_file
     }
   }
 }
